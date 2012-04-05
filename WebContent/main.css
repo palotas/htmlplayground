@@ -9,6 +9,7 @@
 
 
 #banner {
+	position:relative;
 	background-image:url(./alpine.jpg);
 	width: 960px;
 	height: 100px;
@@ -18,6 +19,20 @@
 }
 
 
+#left_column {
+	float: left;
+	padding: 10px;
+	width: 100px;
+	border: 1px solid gray;
+	
+}
+
+#right_column {
+	float: left;
+	padding: 10px;
+	width: 290px;
+	border: 1px solid gray;	
+}
 
 
 

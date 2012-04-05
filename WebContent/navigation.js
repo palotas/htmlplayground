@@ -4,7 +4,7 @@ var cText = '<div id="navigation">';
 	cText += '<a href="#home">Home</a>';
 	cText += '</li>';
 	cText += '<li><a href="./services.html">Services</a></li>';
-	cText += '<li><a href="#contact">Contact</a></li>';
+	cText += '<li><a href="./contact.html">Contact</a></li>';
 	cText += '<li><a href="#about">About</a></li>';
 	cText += '</ul>';
 	cText += '</div>';

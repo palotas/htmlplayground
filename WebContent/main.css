@@ -11,7 +11,7 @@
 #banner {
 	background-image:url(./alpine.jpg);
 	width: 960px;
-	height: 250px;
+	height: 100px;
 	text-align:left;
 	font-size: 48px;
 	
@@ -19,6 +19,10 @@
 
 
 
+
+
+
+/* Navigation bar CSS */
 ul
 {
 list-style-type:none;

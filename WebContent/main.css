@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+#container {
+    width: 960px;
+    background: #FFF;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+#banner {
+	background-image:url(./alpine.jpg);
+	width: 960px;
+	height: 250px;
+	text-align:left;
+	font-size: 48px;
+	
+}
+
+
+
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+li
+{
+float:left;
+}
+
+/* when hovering on link */ 
+a:link,a:visited
+{
+display:block;
+width:200px;
+font-weight:bold;
+color:#FFFFFF; /* link color */
+background-color:#CDCDCD;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:lowercase;
+}
+
+/*regular appearance when not hovered*/
+a:hover,a:active
+{
+background-color:#38B0DE;
+}
+

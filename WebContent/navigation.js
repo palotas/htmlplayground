@@ -1,0 +1,11 @@
+var cText = '<div id="navigation">';
+	cText += '<ul>';
+	cText += '<li>';
+	cText += '<a href="#home">Home</a>';
+	cText += '</li>';
+	cText += '<li><a href="./services.html">Services</a></li>';
+	cText += '<li><a href="#contact">Contact</a></li>';
+	cText += '<li><a href="#about">About</a></li>';
+	cText += '</ul>';
+	cText += '</div>';
+document.write(cText);

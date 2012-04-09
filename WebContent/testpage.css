@@ -16,42 +16,9 @@
 	position: relative;
 	width: 160px;
 	height: 160px;
-	margin: 0 auto;
-
-	
+	margin: 0 auto;	
 }
 
-
-#bannercontent {
-	float: right;
-	position: relative;
-	width: 800px;
-	height: 160px;
-	margin-top: 30px;
-	font-size: 40px;
-	font-family: 'Averia Serif Libre', cursive;
-}
-
-#content {
-	margin-top: 30px;
-	position: relative;
-	width: 960px;
-	height: 550px;
-	font-size: 14px;
-	font-family: 'Averia Serif Libre';
-}
-
-
-#footer1 {
-	background-color: #D10000;
-	opacity:0.8; 
-	vertical-align: middle;
-	position: relative;
-	width: 960px;
-	height: 80px;
-	font-size: 10px;
-	font-family: 'Averia Serif Libre';
-}
 
 .invertedshiftdown{
 padding: 0;
@@ -106,5 +73,3 @@ padding-top: 9px;
 padding-bottom: 5px; 
 color: white;
 }
-
-

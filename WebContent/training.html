@@ -7,7 +7,20 @@
     <LINK href="main.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Averia+Serif+Libre' rel='stylesheet' type='text/css'>
     
-    
+    <!-- jQuery includes -->
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  	
+	<!-- jQuery scripts -->
+		<script type="text/javascript">
+			$(function(){
+
+				// Accordion
+				$("#accordion").accordion({ header: "h3" });
+				//$( "#tabs" ).tabs();
+			});
+		</script>
     
 
 
@@ -43,6 +56,28 @@
 								Click on the links to find out more about the events or click the @ sign to watch the video.
 								
 								<br><br>If you are interested in an engagement please contact <b>info@palotas.org</b></div>
+								
+								
+								
+								
+	<div style="clear:both;"></div>
+	
+	<!-- main accordion for 2010 2011 2012 -->
+			<div id="accordion">
+			<div>
+				<h3><a href="#">2012</a></h3>
+				<div>Content 2012</div>
+				
+			</div>
+			<div>
+				<h3><a href="#">2011</a></h3>
+				<div>Content 2011</div>
+			</div>
+			<div>
+				<h3><a href="#">2010</a></h3>
+				<div>Content 2010</div>
+			</div>
+		</div>
 	
 		<div id="tablecontent">
 			<table>

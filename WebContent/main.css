@@ -2,6 +2,7 @@
 
 #container {
     width: 960px;
+    height: 960px;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -36,7 +37,7 @@
 	margin-top: 30px;
 	position: relative;
 	width: 960px;
-	height: 950px;
+	height: 640px;
 	font-size: 14px;
 	font-family: 'Averia Serif Libre';
 }
@@ -81,16 +82,19 @@
 }
 
 
+/*
 #footer1 {
 	background-color: #D10000;
 	opacity:0.8; 
-	vertical-align: middle;
-	position: relative;
+	vertical-align: bottom;
+	position: absolute;
+	bottom: 0;
 	width: 960px;
 	height: 80px;
 	font-size: 10px;
 	font-family: 'Averia Serif Libre';
 }
+*/
 
 
 

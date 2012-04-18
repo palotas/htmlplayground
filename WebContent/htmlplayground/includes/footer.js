@@ -1,0 +1,1 @@
+document.write("<div id=footer1>Copyright 2012 PALOTAS - GridFusion Software Solutions. Unterdorfstrasse 7. CH-8117 Faellanden</div>");

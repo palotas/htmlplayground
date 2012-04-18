@@ -30,20 +30,9 @@
 	
 	<!-- jquery script for opening dialog boxes -->
 	<script>
-	// increase the default animation speed to exaggerate the effect
-	//$.fx.speeds._default = 1000;
-	$(function() {
-		$( "#dialog" ).dialog({
-			autoOpen: false,
-			//show: "blind",
-			//hide: "explode"
+		$(function() {
+			$( "#dialog" ).dialog();
 		});
-
-		$( "#safariopener" ).click(function() {
-			$( "#dialog" ).dialog( "open" );
-			return false;
-		});
-	});
 	</script>
 		
 </head>
@@ -53,7 +42,7 @@
 
 	<div id="banner"></div>
 	<div id="bannercontent">PALOTAS - GridFusion Software Solutions</div>
-	<div id="bannersubline">taking your software quality to the next level</div>
+	<div id="bannersubline">innovate at the speed of YOUR business</div>
 		
 	
 	 
@@ -87,10 +76,15 @@
 				  <li>combination of Web + Desktop + Mobile autmation into one framework</li>
 				  <li>no drag and drop</li>
 				  <li>those that know do, those that understand teach...we do and teach </li>
+				  <li>core competencies are testing and test automation. tjats what we do</li>
+				  <li>companies are stuck with expensive vendor tools and their business speed relies on the speed of the 3rd party vendor</li>
+				  <li>use open source so that you can innovate at the speed of YOUR business and not at the speed of others</li>
 				</ul>
-			<div id="safariopener"><img src="./images/safari.jpeg" height="100" width="100"/></div>					
-			<img src="./images/turbolister.jpeg" height="100" width="100"/>
-			<img src="./images/mobile.jpeg" height="150" width="100"/>
+			<div id="imagecontainer">
+				<img id="safari" src="./images/safari.jpeg" height="100" width="100"/>					
+				<img class="iphone" src="./images/turbolister.jpeg" height="100" width="100"/>
+				<img class="iphone" src="./images/mobile.jpeg" alt="iphone" height="100" width="100"/>
+			</div>
 				
 			<p>GridFusion exclusively works with open source toolsets, which completely eliminates license fees. 
 			We are experts in open source approaches especially using Selenium and Seleium GRID in combination with proven programming languages like Java, Ruby or Python.</p>

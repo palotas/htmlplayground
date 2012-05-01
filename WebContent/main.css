@@ -4,7 +4,7 @@
 body {
 margin: 0;
 padding: 0 0 20px;
-background: rgba(0,128,0,0.1);
+background: rgba(128,128,128,0.1);
 min-height: 100%;
 font-family: "lucida grande","calibri";
 font-size: 10px;
@@ -15,7 +15,7 @@ font-size: 10px;
 
 #container {
     width: 960px;
-    height: 960px;
+    height: 900px;
     margin: 0 auto;
     overflow: hidden;   
     background: white;
@@ -23,12 +23,12 @@ font-size: 10px;
 
 
 #banner {
-	background-image:url(./images/grid.jpeg);
+	background-image:url(./images/gridlogo.jpg);
 	background-repeat: no-repeat;
 	float: right;
 	position: relative;
-	width: 100px;
-	height: 100px;
+	width: 160px;
+	height: 130px;
 	margin: 0 auto;
 
 
@@ -36,10 +36,12 @@ font-size: 10px;
 
 
 #bannercontent {
-	float: right;
+	background-image:url(./images/gridfusion_logo.png);
+	background-repeat: no-repeat;
+	float: left;
 	position: relative;
-	width: 860px;
-	height: 60px;
+	width: 800px;
+	height: 130px;
 	margin-top: 0px;
 	font-size: 40px;
 }
@@ -52,22 +54,24 @@ font-size: 10px;
 }
 
 #content {
-	margin-top: 30px;
+	background-image:url(./images/fusion2.jpg);
+	margin-top: 5px;
 	position: relative;
 	width: 960px;
 	height: 800px;
 	font-size: 14px;
+	overflow: auto;
 }
 
 
 
 .maincontainer{
-	background: grey;
+	background: rgba(128,128,128,0.6);
 	float:left;
 	color: white;
 	font-size: 24px;
 	margin-left:53px;
-	margin-top:60px;
+	margin-top:45px;
 	padding:10px;
 	width:380px;
 	height: 180px;
@@ -76,23 +80,59 @@ font-size: 10px;
 
 .maincontainer p
 {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .maincontainer:hover
 {
+	/*background:#000000;*/
+		background: rgba(128,128,128,0.9);
+}
+
+
+.smallcontainer{
+	background: rgba(128,128,128,0.6);
+	float:left;
+	color: white;
+	font-size: 16px;
+	margin-left:53px;
+	margin-top:45px;
+	padding:10px;
+	width:380px;
+	height: 40px;
+	border-radius:10px;
+}
+
+.smallcontainer p
+{
+	font-size: 12px;
+}
+
+.smallcontainer:hover
+{
 	background:#000000;
 }
 
+.checkmarklist
+{
+	list-style: url("./images/checkmark.jpg");
+}
+
+
+
 .contentcontainer{
-	background: grey;
+	background: rgba(128,128,128,0.6);
+	position:relative;
 	color: white;
 	font-size: 14px;
-	margin: 0 auto;
+	margin-top:60px;
+	margin-left:auto;
+	margin-right:auto;
 	padding:10px;
 	width:780px;
 	border-radius:10px;
 }
+
 
 .contentcontainer .contentHeadline{
 	font-size: 18px;
@@ -123,33 +163,7 @@ font-size: 10px;
 }
 
 
-#newsbox{
-	float:left;
-	margin-top: 20px;
-	margin-left: 20px;
-	padding: 10px;	
-	font-size: 16px;
-	width: 258px;
-	height: 620px;
-	border: 1px solid #aaaaaa;
-	border-radius: 15px;
-	
-}
 
-#newsentry{
-	float:left;
-	background: #E8E8E8 	;
-	margin-top: 10px;
-	/*margin-left: 7px;
-	margin-right: 2px;*/
-	padding: 6px;	
-	font-size: 12px;
-	width: 244px;
-	height: 100px;
-	border: 1px solid #aaaaaa;
-	border-radius: 10px;
-	
-}
 
 
 #tablecontent {
@@ -181,18 +195,27 @@ font-size: 10px;
 
 
 #footer1{
-	position: relative;
-	float: left;
-	margin-top: 5px;
-	padding-left: 3px;	
-	font-size: 8px;
-	width: 955px;
-	height: 10px;
+	position: absolute;
+	top: 865px;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 10px;
+	width: 958px;
+	height: 33px;
 	border: 1px solid #aaaaaa;
-	border-radius: 5px;
 	
 }
 
+#footerlogo{
+	float:right;
+	background-image:url(./images/gridfusion_logo_footer.png);
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 100px;
+	margin-top:5px;
+	margin-right:5px;
+	
+}
 
 
 /* to highlight table rows when mouse over */

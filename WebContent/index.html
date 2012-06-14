@@ -9,6 +9,9 @@
     <link href='http://fonts.googleapis.com/css?family=Averia+Serif+Libre' rel='stylesheet' type='text/css'>
     	
 	</script>
+	
+	  	<!-- util functions -->
+  	<script src="./utils.js"></script> 
 			
 </head>
 <body>
@@ -22,28 +25,23 @@
 	 
 	<div style="clear:both;"></div>
 	
-	
-	<div class="invertedshiftdown">
-			<ul>
-			<li class="current"><a href="./index.html" title="Home">Home</a></li>
-			<li><a href="./services.html" title="Services">Services</a></li>
-			<li><a href="./training.html" title="Training">Training</a></li>
-			<li><a href="./publicappearances.html" title="In Public">In Public</a></li>
-			<li><a href="./aboutus.html" title="About Us">About</a></li>
-			</ul>
-	</div>
+	<script type="text/javascript" src="./includes/navigation.js"></script>
+
 	
 	<!-- PUT CONTENT BELOW -->
 	<div style="clear:both;"></div>
 	<div id="content">
 		<div class="maincontainer" onclick="location.href='services.html';" style="cursor:pointer"><b>Services &amp; Solutions</b>
-				<p>GridFusion specialized in test automation with open source toolsets. We cover the entire value chain from the first assessment of your organisation
+				<p>GridFusion specializes in test automation with open source toolsets. We cover the entire value chain from the first assessment of your organisation
 					to the actual implementation of the solution together with your team.</p>
 				<p><b>Click for more...</b></p>
 		</div>
 		
 		<div class="maincontainer" onclick="location.href='training.html';" style="cursor:pointer"><b>Training</b>
-				<p>Click here for more information on our customized training offerings around the world</p>
+				<p>Click here for more information on our customized training offerings</p>
+				
+				<p><b>Click for more...</b></p>
+
 		</div>
 		
 		<div class="maincontainer" onclick="location.href='competencies.html';" style="cursor:pointer"><b>Core Competencies</b>
@@ -55,9 +53,13 @@
 		</div>
 		
 		<div class="maincontainer" onclick="location.href='wordonopensource.html';" style="cursor:pointer"><b>A word on open source</b>
-				<p>Open Source is free. If that is your main reason for using it you may want to rethink.</p>
-				<p><b>ALSO ADD WHAT IS CHAGING WITH OPEN SOURCE: mindset, employee engagement etc. Click for more...</b></p>
+				<p>Open Source is free and that's of course a good enough reason to use it already. However there are many more 
+					compelling reasong for the use of open source software in any organization. 
+					
+					<p><b>Click for more...</b></p>
 		</div>
+		
+		<!--
 		<div class="smallcontainer" onclick="location.href='testautomation.html';" style="cursor:pointer">
 			<b>Automation? Why, what, when, who and how?</b>
 			<p><b>Click for more...</b></p>
@@ -69,11 +71,13 @@
 			<p><b>Click for more...</b></p>
 
 		</div>
+		-->
 
 	</div> <!-- content -->
 
 		
 	<script type="text/javascript" src="./includes/footer.js">  </script>
+	<script>setActiveTab();</script>
 	
 </div> <!-- CONTAINER -->
 </body>

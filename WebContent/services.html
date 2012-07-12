@@ -8,35 +8,13 @@
     <LINK href="navigation.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Averia+Serif+Libre' rel='stylesheet' type='text/css'>
      
-     <!-- jQuery includes -->
-    <!-- <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/> -->
-    <link href="my_jquery_ui.css" rel="stylesheet" type="text/css"/>
-  	
-  	<!-- 
-  	<script src="./jquery-ui-1.8.18/js/jquery-1.7.1.min.js"></script>
-  	<script src="./jquery-ui-1.8.18/js/jquery-ui-1.8.18.custom.min.js"></script>  	
-  	 -->
-  	 
-  	 
+  	  	 
   	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
   	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
   	
   	 <!-- JS includes -->
   	<script src="./utils.js"></script>
   	
-	<!-- jQuery scripts -->
-	<script type="text/javascript">
-		$(function(){
-
-			// Accordion
-			//$("#accordion").accordion({ header: "h3" });
-			$( "#tabs" ).tabs();
-			$( ".tabs-bottom .ui-tabs-nav, .tabs-bottom .ui-tabs-nav > *" )
-			.removeClass( "ui-corner-all ui-corner-top" )
-			.addClass( "ui-corner-bottom" );		
-		});
-	</script>   
-
 </head>
 <body>
 
@@ -49,6 +27,7 @@
 	
 	<script type="text/javascript" src="./includes/navigation.js"></script>
 
+	<div style="clear:both;"></div>
 
 
 	<div id="content">
@@ -61,19 +40,18 @@
 		<p>Services &amp; Offerings:</p>
 
 		<ul>
-			<li>Company assessment and feasibility studay for the introduction of open source test automation (add different skill set here)</li>
-			<li>Proof of concept in case you don't have Selenium running in your organization yet (<a href="./about.php">contact us</a> for free proof of concepts)</li>
+			<li>Company assessment and feasibility study for the introduction of open source test automation</li>
+			<li>Proof of concept if you don't have Selenium running in your organization yet (<a href="./about.php">contact us</a> for free proof of concepts)</li>
 			<li>Trainings customized to your needs and tailored to your organization</li>
-			<li>Processes engineering in order to seamlessly introduce open source automation into your organization</li>
+			<li>Processes engineering in order to seamlessly introduce open source based test automation into your organization</li>
 		</ul>
 				
 		</div><!--END contentcontainer-->
 	</div><!--END contentcontainer-->
-
-	<script type="text/javascript" src="./includes/footer.js">  </script>
-	<script>setActiveTab();</script>
-
+		<script type="text/javascript" src="./includes/footer.js">  </script>
 </div><!--END container-->
+
+	<script>setActiveTab();</script>
 
 </body>
 </html>

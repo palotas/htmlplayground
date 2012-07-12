@@ -1,1 +1,1 @@
-document.write("<div id=footer1>Copyright 2012 PALOTAS - GridFusion Software Solutions - Gerbiweg 2 - CH-8853 Lachen SZ - info@gridfusion.net<div id=footerlogo>FOOTERLOGO</div></div>");
+document.write("<div id=footer1>Copyright 2012 PALOTAS - GridFusion Software Solutions - Gerbiweg 2 - CH-8853 Lachen SZ, Switzerland - info@gridfusion.net<div id=footerlogo>FOOTERLOGO</div></div>");

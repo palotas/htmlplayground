@@ -14,6 +14,8 @@
 
     <LINK href="main.css" rel="stylesheet" type="text/css">
     <LINK href="navigation.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+
 
     <!-- jQuery includes -->
     <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
@@ -41,6 +43,22 @@
 		})
 		
 		</script>
+
+<!-- GOOGLE ANALYTICS -->  	
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30699229-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 		 	
 </head>  	
 <body>
@@ -48,8 +66,8 @@
 
 
 <div id="dialog-message2">
-							<p><b>Date:</b> September 13, 2012<br>								
-							<b>Location:</b> Zürich Technopark<br>
+							<p><b>Date:</b> Oct or Nov 2012<br>								
+							<b>Location:</b> Zürich<br>
 							<b>Duration:</b> 8.30  - 17.00<br>
 							<b>Language:</b> English<br>
 							<b>Cost:</b> CHF 1300.-</p>
@@ -101,6 +119,9 @@
 									feels equally at home writing code or developing the next big thing in test automation and speaking to 
 									top management about high level quality strategies.  
 								</p>	
+								<p>
+									<a href="./signupFoundationSelenium.html">SIGN UP HERE</a>
+								</p>
 </div> <!-- end dialog-message2 -->
 
 
@@ -125,24 +146,14 @@
 		<div class="contentcontainer">
 			
 		<b><u>TRAINING</u></b>
-		<p>Currently we offer the following training courses around the Selenium toolset. 
-										<b>Click below to learn more and to sign up.</b></p>
-
-		<div class="trainingLink" onclick=$("#dialog-message2").dialog("open")><p><a href="#" >Selenium Foundation Training</a></p></div>
-
-		<div style="clear:both;"></div>
-
-		<p>
-			All trainings include:
-			<ul>
-				<li>training documentation as hardcopy and electronic versions</li>
-				<li>source code of training examples</li>
-				<li>full catering (coffee break, lunch)</li>
-			</ul>
+		<p>We are currently planning our next Selenium Foundation course for the fall. 
+			If you are interested please sign up on our waitlist and we will contact 
+			you as we are coming closer with our plans.
 		</p>
 
+
+		<div style="clear:both;"></div>
 		
-		<p><b>Please sign up for the trainings here</b></p>
 		<table>
 			<tr height="10">
 				<td width="230"><b>Training</b></td>
@@ -153,28 +164,24 @@
 			</tr>
 
 			<tr>
-				<td>Selenium Foundation Training</td>
-				<td>September 13, 2012</td>
-				<td>Zürich Technopark</td>
+				<td><div class="trainingLink" onclick=$("#dialog-message2").dialog("open")><p><a href="#" >Selenium Foundation Training</a></p></div></td>
+				<td>Oct or Nov 2012</td>
+				<td>Zürich</td>
 				<td>CHF 1300.-</td>
 				<td><a href="./signupFoundationSelenium.html">sign up here</a></td>
-			</tr>
-			
-		</table>		
+			</tr>			
+		</table>
+		
+		<p>
+			All trainings include:
+			<ul>
+				<li>training documentation as hardcopy and electronic versions</li>
+				<li>source code of training examples</li>
+				<li>full catering (coffee break, lunch)</li>
+			</ul>
+		</p>		
 
-		
-		
-		
-		<b><br /><u>CONSULTING</u></b>
-		<p>I am also offering consulting services around the following topics:</p>			
-
-		<ul>
-			<li>Software and Quality Assessments</li>
-			<li>Introduction of open source software into organizations</li>
-			<li>Customized Selenium Trainings bundled with individual consulting</li>
-			<li>Transitioning and reshaping test teams and organizations from a mainly manual focus to the perfect mix between manual and automated testing </li>
-		</ul>
-		<p>Please use the <a href="./aboutme.php">contact form</a> or send me an email to info@palotas.org for more information</p>
+	<p>Please use the <a href="./aboutme.php">contact form</a> or send me an email to info@gridfusion.net for more information</p>
 		
 		
 		</div><!--END contentcontainer-->

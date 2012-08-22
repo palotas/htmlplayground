@@ -26,6 +26,14 @@ function setActiveTab(){
 	
 	//check which page we are currently on
 	currentPage = document.location.href;
+	
+	// when on downtown.palotas.org just set the HOME tab as current
+	 if ("http://gridfusion.net/".indexOf(currentPage)>=0)
+	 {
+	 	//set HOME tab as current
+	 	liElements[0].className='current';	 	
+	 }
+	 else{
 	 //loop through liElements. Once the current page location matches aElement.href
 	 //set that li element as current
 	 for(i=0; i<liElements.length; i++) {
@@ -35,7 +43,10 @@ function setActiveTab(){
 	 		liElements[i].className='current';
 	 	}
 	 } 
+		 	
+	 }
 	
+
 }
 
 

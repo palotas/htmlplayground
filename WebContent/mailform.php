@@ -85,7 +85,7 @@ function filter($input) {
        font-weight:bold;
     }
     h3.contactFormHeading{
-       color:white;
+       color:black;
        font-size:16px;
        font-weight:bold;
     }
@@ -106,7 +106,7 @@ function filter($input) {
 </style>
 
 
-<h3 class="contactFormHeading">Contact me directly</h3>
+<h3 class="contactFormHeading">Contact GRIDFUSION directly</h3>
 
 <table id="contactForm">
 <tr>

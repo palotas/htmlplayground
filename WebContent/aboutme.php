@@ -8,7 +8,7 @@
 
     <LINK href="main.css" rel="stylesheet" type="text/css">
     <LINK href="navigation.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Averia+Serif+Libre' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
     
 	<!-- Google Analytics -->
 	<script type="text/javascript">
@@ -26,7 +26,22 @@
 	</script><!-- END Google Analytics -->
 
   	<!-- util functions -->
-  	<script src="./downtown_utils.js"></script> 
+  	<script src="./utils.js"></script> 
+
+<!-- GOOGLE ANALYTICS -->  	
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30699229-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </head>
 <body>
@@ -38,7 +53,7 @@
 	
 	<div style="clear:both;"></div>
 	
-	<script type="text/javascript" src="./js/navigation.js"></script>
+	<script type="text/javascript" src="./includes/navigation.js"></script>
 
 	
 	<div style="clear:both;"></div>
@@ -47,18 +62,23 @@
 	
 	<div id="content">		
 		
-		<div class="maincontainer">
-			<p style="font-size: 16px"><b>Professional Summary and Education</b></p>
-			
-			<p style="color: black">Click <a style="color:black" href="./includes/Michael_Palotas_Resume_2012.pdf">here </a>for a detailed CV.</p> 
-		
-			<p><b>Dipl. Ing (FH) Nachrichtentechnik (Telecommunications)</b></p>
-			<p>Stanford University 2011, Palo Alto US<br>
-			British Columbia Institute of Technology 2002, Vancouver CA<br>
-			University of Applied Sciences Dieburg 1998, Dieburg DE</p>
+
+
+		<div class="maincontainer" style="height: 600px">
+			<p style="font-size: 14px"><b>Michael Palotas<br />Professional Summary and Education</b></p>
+					
+			<p>Dipl. Ing (FH) Nachrichtentechnik (Telecommunications)</p>
+			<p>Stanford University 2011<br>
+			British Columbia Institute of Technology 2002<br>
+			University of Applied Sciences Dieburg 1998</p>
 		
 			</p>
 			
+			<p>
+			<div class="cv_years">CEO / Founder GRIDFUSION</div> 
+			<div class="cv_description">Lachen, CH<br/></div>
+			</p>
+
 			
 			<p>
 			<div class="cv_years">Head of Quality Engineering Europe</div> 
@@ -108,14 +128,14 @@
 		</div><!--END maincontainer-->
 
 
-		<div class="maincontainer">
+		<div class="maincontainer" style="height: 600px;">
 		<p>
 		<b>CONTACT</b><br/>
 		Michael Palotas<br>
 		Gerbiweg 2<br>
 		8853 Lachen SZ<br>
 		SWITZERLAND<br>
-		Email: info@palotas.org<br>
+		Email: michael.palotas@gridfusion.net<br>
 		<p>DISCLAIMER: The content and opinions on this website are exclusively representing Michael Palotas</p>
 		</p>
 		

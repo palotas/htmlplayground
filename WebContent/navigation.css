@@ -1,7 +1,7 @@
 .invertedshiftdown{
 padding: 0;
 width: 960px;
-border-top: 5px solid #D10000; 
+border-top: 3px solid #FF0000; 
 background: transparent;
 voice-family: "\"}\"";
 voice-family: inherit;
@@ -9,7 +9,7 @@ voice-family: inherit;
 
 .invertedshiftdown ul{
 margin:0;
-margin-left: 40px; 
+margin-left: 55px; 
 padding: 0;
 list-style: none;
 }
@@ -32,21 +32,21 @@ padding: 5px 10px 9px 10px;
 background-color: white; 
 
 
--moz-border-radius-bottomleft: 5px;
-border-bottom-left-radius: 5px;
--moz-border-radius-bottomright: 5px;
-border-bottom-right-radius: 5px;
+-moz-border-radius-bottomleft: 3px;
+border-bottom-left-radius: 3px;
+-moz-border-radius-bottomright: 3px;
+border-bottom-right-radius: 3px;
 }
 
 .invertedshiftdown a:hover{
-background-color: #D10000; 
+background-color: #FF0000; 
 padding-top: 9px; 
 padding-bottom: 5px;
 color: white;
 }
 
 .invertedshiftdown .current a{
-background-color: #D10000; 
+background-color: #FF0000;
 padding-top: 9px; 
 padding-bottom: 5px; 
 color: white;

@@ -71,14 +71,12 @@
 			<p>Stanford University 2011<br>
 			British Columbia Institute of Technology 2002<br>
 			University of Applied Sciences Dieburg 1998</p>
-		
 			</p>
 			
 			<p>
 			<div class="cv_years">CEO / Founder GRIDFUSION</div> 
 			<div class="cv_description">Lachen, CH<br/></div>
 			</p>
-
 			
 			<p>
 			<div class="cv_years">Head of Quality Engineering Europe</div> 

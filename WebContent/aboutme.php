@@ -135,7 +135,7 @@
 		Gerbiweg 2<br>
 		8853 Lachen SZ<br>
 		SWITZERLAND<br>
-		Email: michael.palotas@gridfusion.net<br>
+		Email: info@gridfusion.net<br>
 		<p>DISCLAIMER: The content and opinions on this website are exclusively representing Michael Palotas</p>
 		</p>
 		

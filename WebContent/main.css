@@ -40,6 +40,30 @@ ul { margin-top: 0; }
 }
 
 
+#footer1{
+	margin: 0 auto;
+	font-size: 10px;
+	width: 958px;
+	height: 22px;
+	border: 1px solid #aaaaaa;
+	
+}
+
+/*
+#footer1{
+	position: absolute;
+	top: 960px;
+	left: 231px;
+	color: black;
+	background: rgba(128,128,128,0.1);
+	font-size: 10px;
+	width: 958px;
+	height: 20px;
+	border: 1px solid #aaaaaa;
+	
+}
+*/
+
 #banner {
 	/*background-image:url(./images/parallelboxes.png);*/
 	background-repeat: no-repeat;
@@ -54,7 +78,7 @@ ul { margin-top: 0; }
 
 
 #bannercontent {
-	background-image:url(./images/gridfusion_logo_1.png);
+	background-image:url(./images/gridfusion_logo_2.png);
 	background-repeat: no-repeat;
 	float: left;
 	position: relative;
@@ -84,7 +108,7 @@ ul { margin-top: 0; }
 
 .cv_years
 {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: bold;
 	color:#29293D;
 
@@ -92,14 +116,14 @@ ul { margin-top: 0; }
 
 .cv_description
 {
-	font-size: 13px;
+	font-size: 12px;
 	color:#29293D;
 }
 
 
 
 .widecontainer, .maincontainer{
-	background: rgba(244,244,244,0.6);
+	background: rgba(244,244,244,0.5);
 	position:relative;
 	float:left;
 	color: black;
@@ -159,7 +183,7 @@ ul { margin-top: 0; }
 
 
 .contentcontainer{
-	background: rgba(244,244,244,0.9);
+	background: rgba(244,244,244,0.6);
 	position:relative;
 	color:#29293D;
 	font-size: 12px;
@@ -232,18 +256,7 @@ ul { margin-top: 0; }
 
 
 
-#footer1{
-	position: absolute;
-	top: 960px;
-	left: 231px;
-	color: black;
-	background: rgba(128,128,128,0.1);
-	font-size: 10px;
-	width: 958px;
-	height: 20px;
-	border: 1px solid #aaaaaa;
-	
-}
+
 
 #footerlogo{
 	float:right;

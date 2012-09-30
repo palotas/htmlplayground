@@ -86,7 +86,7 @@ function filter($input) {
     }
     h3.contactFormHeading{
        color:black;
-       font-size:16px;
+       font-size:12px;
        font-weight:bold;
     }
     input.contactFormInput{
@@ -110,21 +110,21 @@ function filter($input) {
 
 <table id="contactForm">
 <tr>
-    <td style="text-align:right;"><b>Name:</b></td>
+    <td style="text-align:right;">Name:</td>
     <td><input type="text" name="from_name" value="<? if (!empty($_POST['from_name'])) echo $_POST['from_name']; ?>"> <font color='red' size=-1><?=$name_err?></font></td>
 </tr>
 <tr>
-    <td style="text-align:right;"><b>Email:</b></td>
+    <td style="text-align:right;">Email:</td>
     <td><input type="text" name="from_email" value="<? if (!empty($_POST['from_email'])) echo $_POST['from_email']; ?>"> <font color='red' size=-1><?=$email_err?></font></td>
 </tr>
 <tr>
-    <td style="text-align:right;"><b>Subject:</b></td>
+    <td style="text-align:right;">Subject:</td>
     <td><input type="text" name="from_betreff" value="<? if (!empty($_POST['from_betreff'])) echo $_POST['from_betreff']; ?>"> <font color='red' size=-1><?=$betreff_err?></font></td>
 </tr>
 
 
 <tr>
-    <td><b>Message:</b></td>
+    <td>Message:</td>
     <td><textarea class="contactFormTextarea" name="from_msg" cols=50 rows=10><? if (!empty($_POST['from_msg'])) echo $_POST['from_msg']; ?></textarea>
     <br><span class="error_txt"><?=$msg_err?></span></td>
 </tr>

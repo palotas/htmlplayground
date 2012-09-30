@@ -121,7 +121,6 @@
 		8853 Lachen SZ<br>
 		SWITZERLAND<br>
 		Email: info@gridfusion.net<br>
-		<p>DISCLAIMER: The content and opinions on this website are exclusively representing Michael Palotas</p>
 		</p>
 		
 		<!-- contact form is included here -->
@@ -133,10 +132,10 @@
 	
 
 	
+<script type="text/javascript" src="./includes/footer.js">  </script>
 		
 	<script>setActiveTab();</script>
 </div>
-<script type="text/javascript" src="./includes/footer.js">  </script>
 
 </body>
 </html>

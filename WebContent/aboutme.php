@@ -67,7 +67,7 @@
 		<div class="maincontainer" style="height: 600px">
 			<p style="font-size: 14px"><b>Michael Palotas<br />Professional Summary and Education</b></p>
 					
-			<p>Dipl. Ing (FH) Nachrichtentechnik (Telecommunications)</p>
+			<p>Dipl. Ing (FH) Nachrichtentechnik <br> (Electrical Engineering)</p>
 			<p>Stanford University 2011<br>
 			British Columbia Institute of Technology 2002<br>
 			University of Applied Sciences Dieburg 1998</p>
@@ -79,48 +79,35 @@
 			</p>
 			
 			<p>
-			<div class="cv_years">Head of Quality Engineering Europe</div> 
-			<div class="cv_description">2008 - current<br/>
-			eBay International, Zürich CH
-			</div>
+			<div class="cv_years">Head of Quality Engineering Europe (2008-current)</div> 
+			<div class="cv_description">eBay International, Zürich CH</div>
 			</p>
 			
 			<p>
-			<div class="cv_years">Head of Product Development and Operations</div>
-			<div class="cv_description">2007 - 2008<br/>
-			eBay, Berlin DE</p>
-			</div>
+			<div class="cv_years">Head of Product Development (2007-2008)</div>
+			<div class="cv_description">eBay, Berlin DE</div>
 			</p>
 
 			<p>
-			<div class="cv_years">Senior Manager Quality Assurance</div>
-			<div class="cv_description">2004 - 2007<br/>
-			eBay, Berlin DE</p>
-			</div>
+			<div class="cv_years">Senior Manager Quality Assurance (2004-2007)</div>
+			<div class="cv_description">eBay, Berlin DE</div>
 			</p>
-			
-			
-						
+								
 			<p>
-			<div class="cv_years">Senior Software Engineer</div>
-			<div class="cv_description">2000 - 2003<br/>
-			INTEL, Vancouver / Canada
-			</div>
+			<div class="cv_years">Senior Software Engineer (2000-2003)</div>
+			<div class="cv_description">INTEL, Vancouver CA</div>
 			</p>
 			
 			<p>
 				
-			<div class="cv_years">Network Test Engineer</div>
-			<div class="cv_description">1999 - 2000<br/>
-			Nortel Networks, Winnipeg / Canada
+			<div class="cv_years">Network Test Engineer (1999-2000)</div>
+			<div class="cv_description">Nortel Networks, Winnipeg CA
 			</div>
 			</p>
 
 			<p>
-			<div class="cv_years">Software Design Engineer</div>
-			<div class="cv_description">1998 - 1999<br/>
-			Ericsson Eurolab , Nürnberg DE
-			</div>
+			<div class="cv_years">Software Design Engineer (1998-1999)</div>
+			<div class="cv_description">Ericsson Eurolab , Nürnberg DE</div>
 			</p>
 			
 		</div><!--END maincontainer-->
@@ -147,11 +134,9 @@
 
 	
 		
-	<script type="text/javascript" src="./includes/footer.js">  </script>
 	<script>setActiveTab();</script>
-	
-
 </div>
+<script type="text/javascript" src="./includes/footer.js">  </script>
 
 </body>
 </html>

@@ -1,5 +1,7 @@
 @CHARSET "UTF-8";
 
+@import "./buttons.css";
+
 
 body {
 margin: 0;
@@ -10,9 +12,13 @@ font-family: "Varela";
 font-size: 10px;
 }
 
+tr p{
+	font-size: 8px;
+}
+
 #accordion .accordiontext{
 	font-family: "Varela";
-	font-size: 14px;
+	font-size: 12px;
 	color:#777777;	
 }
 
@@ -45,7 +51,7 @@ font-size: 10px;
 
 
 #bannercontent {
-	background-image:url(./images/gridfusion_logo.png);
+	background-image:url(./images/gridfusion_logo_1.png);
 	background-repeat: no-repeat;
 	float: left;
 	position: relative;
@@ -74,7 +80,7 @@ font-size: 10px;
 
 .cv_years
 {
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: bold;
 	color:#777777;
 
@@ -82,7 +88,7 @@ font-size: 10px;
 
 .cv_description
 {
-	font-size: 12px;
+	font-size: 13px;
 	color:#777777;
 }
 
@@ -93,7 +99,7 @@ font-size: 10px;
 	position:relative;
 	float:left;
 	color: black;
-	font-size: 24px;
+	font-size: 18px;
 	margin-left:53px;
 	margin-top:25px;
 	padding:10px;
@@ -104,15 +110,17 @@ font-size: 10px;
 
 .maincontainer p
 {
-	font-size: 14px;
+	font-size: 12px;
 	color:#777777;
 }
 
+/*
 .maincontainer .continueButton{
 	position:absolute;
 	bottom:0;
 	
 }
+*/
 
 
 
@@ -150,7 +158,7 @@ font-size: 10px;
 	background: rgba(244,244,244,0.9);
 	position:relative;
 	color:#777777;
-	font-size: 14px;
+	font-size: 12px;
 	margin-top:25px;
 	margin-left:auto;
 	margin-right:auto;
@@ -222,7 +230,8 @@ font-size: 10px;
 
 #footer1{
 	position: absolute;
-	top: 930px;
+	top: 960px;
+	left: 231px;
 	color: black;
 	background: rgba(128,128,128,0.1);
 	font-size: 10px;

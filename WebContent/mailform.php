@@ -106,7 +106,7 @@ function filter($input) {
 </style>
 
 
-<h3 class="contactFormHeading">Contact GRIDFUSION directly</h3>
+<h3 class="contactFormHeading">Get in touch</h3>
 
 <table id="contactForm">
 <tr>
@@ -114,7 +114,7 @@ function filter($input) {
     <td><input type="text" name="from_name" value="<? if (!empty($_POST['from_name'])) echo $_POST['from_name']; ?>"> <font color='red' size=-1><?=$name_err?></font></td>
 </tr>
 <tr>
-    <td style="text-align:right;"><b>E-Mail:</b></td>
+    <td style="text-align:right;"><b>Email:</b></td>
     <td><input type="text" name="from_email" value="<? if (!empty($_POST['from_email'])) echo $_POST['from_email']; ?>"> <font color='red' size=-1><?=$email_err?></font></td>
 </tr>
 <tr>
@@ -122,12 +122,6 @@ function filter($input) {
     <td><input type="text" name="from_betreff" value="<? if (!empty($_POST['from_betreff'])) echo $_POST['from_betreff']; ?>"> <font color='red' size=-1><?=$betreff_err?></font></td>
 </tr>
 
-<!-- michaels creation
-<tr>
-    <td style="text-align:right;"><b>Wedding:</b></td>
-    <td><input type="checkbox" name="from_wedding" value="<? if (!empty($_POST['from_wedding'])) echo $_POST['from_wedding']; ?>"> <font color='red' size=-1><?=$wedding_err?></font></td>
-</tr>
--->
 
 <tr>
     <td><b>Message:</b></td>

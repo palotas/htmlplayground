@@ -1,7 +1,7 @@
 .invertedshiftdown{
 padding: 0;
 width: 960px;
-border-top: 3px solid #FF0000; 
+border-top: 3px solid #2E5C8A; 
 background: transparent;
 voice-family: "\"}\"";
 voice-family: inherit;
@@ -39,14 +39,14 @@ border-bottom-right-radius: 3px;
 }
 
 .invertedshiftdown a:hover{
-background-color: #FF0000; 
+background-color: #2E5C8A; 
 padding-top: 9px; 
 padding-bottom: 5px;
 color: white;
 }
 
 .invertedshiftdown .current a{
-background-color: #FF0000;
+background-color: #2E5C8A;
 padding-top: 9px; 
 padding-bottom: 5px; 
 color: white;

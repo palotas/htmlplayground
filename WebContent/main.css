@@ -16,10 +16,13 @@ tr p{
 	font-size: 8px;
 }
 
+ul { margin-top: 0; }
+
+
 #accordion .accordiontext{
 	font-family: "Varela";
 	font-size: 12px;
-	color:#777777;	
+	color:#29293D;	
 }
 
 .hpimagetext{
@@ -69,6 +72,7 @@ tr p{
 }
 
 #content {
+	background-image:url(./images/fusion5.jpeg);
 	margin-top: 5px;	
 	position: relative;
 	width: 960px;
@@ -82,20 +86,20 @@ tr p{
 {
 	font-size: 13px;
 	font-weight: bold;
-	color:#777777;
+	color:#29293D;
 
 }
 
 .cv_description
 {
 	font-size: 13px;
-	color:#777777;
+	color:#29293D;
 }
 
 
 
 .widecontainer, .maincontainer{
-	background: rgba(244,244,244,0.9);
+	background: rgba(244,244,244,0.6);
 	position:relative;
 	float:left;
 	color: black;
@@ -111,7 +115,7 @@ tr p{
 .maincontainer p
 {
 	font-size: 12px;
-	color:#777777;
+	color:#29293D;
 }
 
 /*
@@ -157,7 +161,7 @@ tr p{
 .contentcontainer{
 	background: rgba(244,244,244,0.9);
 	position:relative;
-	color:#777777;
+	color:#29293D;
 	font-size: 12px;
 	margin-top:25px;
 	margin-left:auto;

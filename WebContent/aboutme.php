@@ -95,7 +95,7 @@
 								
 			<p>
 			<div class="cv_years">Senior Software Engineer (2000-2003)</div>
-			<div class="cv_description">INTEL, Vancouver CA</div>
+			<div class="cv_description">Intel, Vancouver CA</div>
 			</p>
 			
 			<p>
@@ -115,7 +115,7 @@
 
 		<div class="maincontainer" style="height: 600px;">
 		<p>
-		<b>CONTACT</b><br/>
+		<b>Contact</b><br/>
 		Michael Palotas<br>
 		Gerbiweg 2<br>
 		8853 Lachen SZ<br>

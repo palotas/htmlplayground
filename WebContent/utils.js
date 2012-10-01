@@ -2,22 +2,70 @@
  * @author sh: -c: line 0: `echo Palotas, Michael()' (2)
  */
 
-/**
- * this function sets the active navigation tab by checking
- * if the object array contains parts of the current URL
- */
 
-/*
-function setActive() {
-  aObj = document.getElementById('nav').getElementsByTagName('li');
-  for(i=0;i<aObj.length;i++) {
-    if(document.location.href.indexOf(aObj[i].firstChild)>=0) {
-    	//alert("setActive MATCH");
-      aObj[i].className='current';
-    }
-  }
+
+cookie_name = "palotas_cookie";
+var visited = false;
+
+function putCookie() {
+
+if(document.cookie != document.cookie) 
+{index = document.cookie.indexOf(cookie_name);}
+else 
+{ index = -1;}
+
+if ((index == -1) && visited == false)
+{
+visited = true;
+document.cookie=cookie_name+"="+ visited +"; expires=Monday, 04-Apr-2015 05:00:00 GMT";
+//alert("just set the cookie");
 }
-*/
+
+}
+
+
+//Get cookie routine by Shelley Powers 
+function get_cookie(Name) {
+  var search = Name + "="
+  var returnvalue = "";
+  if (document.cookie.length > 0) {
+    offset = document.cookie.indexOf(search)
+    // if cookie exists
+    if (offset != -1) { 
+      offset += search.length
+      // set index of beginning of value
+      end = document.cookie.indexOf(";", offset);
+      // set index of end of cookie value
+      if (end == -1) end = document.cookie.length;
+      returnvalue=unescape(document.cookie.substring(offset, end))
+      }
+   }
+  return returnvalue;
+}
+
+
+
+/**
+ * just a function to play around with
+ */
+function printBrowserInformation(){
+	userAgent = navigator.userAgent;
+	alreadyDisplayed = "";
+
+	//get the value of the cookie
+	alreadyDisplayed = get_cookie("palotas_cookie");
+	
+	
+	if (alreadyDisplayed.indexOf("true") == -1)
+	{
+		if((userAgent.indexOf("Firefox") == -1) && (userAgent.indexOf("Chrome") == -1) && (userAgent.indexOf("Safari") == -1))
+		{
+			alert("This site was optimized for Chrome, Firefox and Safari browsers. It is possible that other browsers may not properly display the content of this site.");
+		}
+	}
+
+	
+}
 
 
 function setActiveTab(){
@@ -51,11 +99,4 @@ function setActiveTab(){
 
 
 
-/**
- * just a function to play around with
- */
-function printBrowserInformation(){
-	alert("Browser: " + navigator.appCodeName);
-	
-}
 

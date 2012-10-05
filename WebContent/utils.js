@@ -23,7 +23,7 @@ document.cookie=cookie_name+"="+ visited +"; expires=Monday, 04-Apr-2015 05:00:0
 
 }
 
-
+	
 //Get cookie routine by Shelley Powers 
 function get_cookie(Name) {
   var search = Name + "="
@@ -75,7 +75,6 @@ function setActiveTab(){
 	//check which page we are currently on
 	currentPage = document.location.href;
 	
-	// when on downtown.palotas.org just set the HOME tab as current
 	 if ("http://gridfusion.net/".indexOf(currentPage)>=0)
 	 {
 	 	//set HOME tab as current

@@ -4,7 +4,8 @@ document.write("<div id=\"nav\" class=\"invertedshiftdown\">" +
 				"<li><a href=\"./index.html\" title=\"\">HOME</a></li>" + 
 				"<li><a href=\"./services.html\" title=\"\">SERVICES / SOLUTIONS</a></li>" + 
 				"<li><a href=\"./training.html\" title=\"\">TRAINING</a></li>" + 				
-				"<li><a href=\"./aboutme.php\" title=\"\">ABOUT / CONTACT</a></li>" + 
+				"<li><a href=\"./aboutme.php\" title=\"\">ABOUT</a></li>" + 
+				"<li><a href=\"./contact.php\" title=\"\">CONTACT</a></li>" + 
 				"<ul>" + 
 				"</div>");
 

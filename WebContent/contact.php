@@ -7,7 +7,7 @@
 innovation, test engineering, conferences, swiss testing day, conference board, palotas, Selenium, webdriver, webdriver training, 
 Selenium Training, Selenium Consulting, test automation, gridfusion, agile testing, agile automation " />
 
-<title>GRIDFUSION.net - About</title>
+<title>GRIDFUSION.net - Contact</title>
 
     <LINK href="main.css" rel="stylesheet" type="text/css">
     <LINK href="navigation.css" rel="stylesheet" type="text/css">
@@ -64,56 +64,24 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 	
 	
 	<div id="content">		
+
+
+
+		<div class="maincontainer" style="height: 600px;">
+		<p>
+		<b>Contact</b><br/>
+		GRIDFUSION Software Solution <br />
+		Michael Palotas<br>
+		Gerbiweg 2<br>
+		8853 Lachen SZ<br>
+		SWITZERLAND<br>
+		Email: info@gridfusion.net<br>
+		</p>
 		
-
-
-		<div class="maincontainer" style="height: 600px">
-			<p style="font-size: 14px"><b>Michael Palotas<br />Professional Summary and Education</b></p>
-					
-			<p>Dipl. Ing (FH) Nachrichtentechnik <br> (Electrical Engineering)</p>
-			<p>Stanford University 2011<br>
-			British Columbia Institute of Technology 2002<br>
-			University of Applied Sciences Dieburg 1998</p>
-			</p>
-			
-			<p>
-			<div class="cv_years">CEO / Founder GRIDFUSION</div> 
-			<div class="cv_description">Lachen, CH<br/></div>
-			</p>
-			
-			<p>
-			<div class="cv_years">Head of Quality Engineering Europe (2008-current)</div> 
-			<div class="cv_description">eBay International, Zürich CH</div>
-			</p>
-			
-			<p>
-			<div class="cv_years">Head of Product Development (2007-2008)</div>
-			<div class="cv_description">eBay, Berlin DE</div>
-			</p>
-
-			<p>
-			<div class="cv_years">Senior Manager Quality Assurance (2004-2007)</div>
-			<div class="cv_description">eBay, Berlin DE</div>
-			</p>
-								
-			<p>
-			<div class="cv_years">Senior Software Engineer (2000-2003)</div>
-			<div class="cv_description">Intel, Vancouver CA</div>
-			</p>
-			
-			<p>
-				
-			<div class="cv_years">Network Test Engineer (1999-2000)</div>
-			<div class="cv_description">Nortel Networks, Winnipeg CA
-			</div>
-			</p>
-
-			<p>
-			<div class="cv_years">Software Design Engineer (1998-1999)</div>
-			<div class="cv_description">Ericsson Eurolab , Nürnberg DE</div>
-			</p>
-			
+		<!-- contact form is included here -->
+		<? include("mailform.php"); ?>
 		</div><!--END maincontainer-->
+
 		
 	</div> <!-- CONTENT -->
 	

@@ -7,26 +7,26 @@
 innovation, test engineering, conferences, swiss testing day, conference board, palotas, Selenium, webdriver, webdriver training, 
 Selenium Training, Selenium Consulting, test automation, gridfusion, agile testing, agile automation " />
 
-<title>GRIDFUSION.net - Contact</title>
+<title>GRIDFUSION.net - Registration</title>
 
     <LINK href="main.css" rel="stylesheet" type="text/css">
     <LINK href="navigation.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
     
-	<!-- Google Analytics -->
-	<script type="text/javascript">
+<!-- GOOGLE ANALYTICS -->  	
+<script type="text/javascript">
 
-  	var _gaq = _gaq || [];
-  	_gaq.push(['_setAccount', 'UA-30332697-1']);
-  	_gaq.push(['_trackPageview']);
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30699229-2']);
+  _gaq.push(['_trackPageview']);
 
-  	(function() {
-    	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
- 	 })();
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
-	</script><!-- END Google Analytics -->
+</script>
 
   	<!-- util functions -->
   	<script src="./utils.js"></script> 
@@ -67,19 +67,10 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 
 
 
-		<div class="maincontainer" style="height: 600px;">
-		<p>
-		<b>Contact</b><br/>
-		GRIDFUSION Software Solutions<br />
-		Michael Palotas<br>
-		Gerbiweg 2<br>
-		8853 Lachen SZ<br>
-		SWITZERLAND<br>
-		Email: info@gridfusion.net<br>
-		</p>
+		<div class="contentcontainer" style="height: 600px;">
 		
 		<!-- contact form is included here -->
-		<? include("mailform.php"); ?>
+		<? include("signupSelenium.php"); ?>
 		</div><!--END maincontainer-->
 
 		

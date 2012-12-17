@@ -85,47 +85,46 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 		<div class="maincontainer">
 			<p><b>Michael Palotas upcoming public events:</b></p>
 			<table>
-								<tr height="10">
-									<td width="70px"><b>Date</b></td>
+								<tr height="10" class="tableHeader">
+									<td width="90px"><b>Date</b></td>
 									<td width="250x"><b>Event</b></td>
 									<td width="490px"><b>Topic</b></td>
 									<td width="40px"><b>Location</b></td>																										
 								</tr>
-								<tr>
-									<td>Jan 22</td>	
-									<td><a href="http://www.sigs-datacom.de/oop2013/oop2013.html" target="_blank">OOP 2013</a></td>	
-									<td>Mobile Test Automation at eBay</td>	
-									<td>Munich</td>	
-								</tr>									
-								<tr>
+								<tr class="bg0">
 									<td>Jan 8</td>	
 									<td>Fachhochschule Heilbronn</a></td>	
 									<td>Guest Lecture</td>	
 									<td>Heilbronn</td>	
-								</tr>								<tr>
-									<td>Nov 28</td>	
-									<td><a href="http://pass.ch/events/crowd-cloud-based-testing" target="_blank">Crowd and Cloud based testing</a></td>	
-									<td>eBay's Crowd Testing Approach</td>	
-									<td>Zürich</td>	
-								</tr>								
-								<tr>
-									<td>Nov 22</td>	
-									<td><a href="http://www.agiletestingdays.com/" target="_blank">Agile Testing Days</a></td>	
-									<td>Mobile test automation at mobile scale</td>	
-									<td>Potsdam</td>	
 								</tr>
-								<tr>
-									<td>Nov 5</td>	
-									<td><a href="http://www.iqnite-conferences.com/AU/index.aspx" target="_blank">Iqnite Australia</a></td>	
-									<td>KEYNOTE - Unfolding the Swiss Army Knife</td>	
-									<td>Sydney</td>	
+								<tr class="bg1">
+									<td>Jan 22</td>	
+									<td><a href="http://www.sigs-datacom.de/oop2013/oop2013.html" target="_blank">OOP 2013</a></td>	
+									<td>Mobile Test Automation at eBay</td>	
+									<td>Munich</td>	
+								</tr>	
+								<tr class="bg0">
+									<td>Feb 5</td>	
+									<td><a href="http://www.digicomp.ch/opentuesday" target="_blank">Open Tuesday</a></td>	
+									<td>Die Selenium Toolfamilie und ihr Einsatz im Web- und Mobile Automatisierungumfeld</td>	
+									<td>Zürich</td>		
+								</tr>	
+								<tr class="bg1">
+									<td>Mar 21</td>	
+									<td>Siemens Global Testing Conference</td>	
+									<td>TBD</td>	
+									<td>Erlangen</td>	
+								</tr>	
+								<tr class="bg0">
+									<td>Mar 30</td>	
+									<td><a href="http://www.codefest.ru" target="_blank">Codefest Russia</a></td>	
+									<td>Unfolding the Swiss Army Knife - The skilfull tester of the 21st century</td>	
+									<td>Novosibirsk</td>	
 								</tr>
-								<tr>
-									<td>Oct 24</td>	
-									<td><a href="http://jug.ch/eventpreview?id=224" target="_blank">Java User Group Switzerland</a></td>	
-									<td>Selenium, the cure for Mercury Poisoning</td>	
-									<td>Bern</td>	
-								</tr>
+
+								
+								
+								
 			</table>
 		</div>
 		

@@ -121,7 +121,12 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 									<td>Unfolding the Swiss Army Knife - The skilfull tester of the 21st century</td>	
 									<td>Novosibirsk</td>	
 								</tr>
-
+								<tr class="bg0">
+									<td>Apr 18</td>	
+									<td>Novomatic Test Conference</td>	
+									<td>TBD</td>	
+									<td>Vienna</td>	
+								</tr>
 								
 								
 								
@@ -140,8 +145,8 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 			</p>
 			
 			<p>
-			<div class="cv_years">CEO / Founder GRIDFUSION</div> 
-			<div class="cv_description">Lachen, CH<br/></div>
+			<div class="cv_years">Founder / Principal Consultant</div> 
+			<div class="cv_description">GRIDFUSION Software Solutions, Lachen CH<br/></div>
 			</p>
 			
 			<p>

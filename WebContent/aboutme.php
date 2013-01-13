@@ -121,7 +121,7 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 									<td>Unfolding the Swiss Army Knife - The skilfull tester of the 21st century</td>	
 									<td>Novosibirsk</td>	
 								</tr>
-								<tr class="bg0">
+								<tr class="bg1">
 									<td>Apr 18</td>	
 									<td>Novomatic Test Conference</td>	
 									<td>TBD</td>	

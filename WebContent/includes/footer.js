@@ -1,1 +1,1 @@
-document.write("<div id=footer1>Copyright 2012 GridFusion Software Solutions - Michael Palotas - Gerbiweg 2 - 8853 Lachen SZ, Switzerland - info@gridfusion.net</div>");
+document.write("<div id=footer1>Copyright 2012 GRIDFUSION Software Solutions - Michael Palotas - Gerbiweg 2 - 8853 Lachen SZ, Switzerland - info@gridfusion.net</div>");

@@ -39,14 +39,14 @@ border-bottom-right-radius: 3px;
 }
 
 .invertedshiftdown a:hover{
-background-color: #2E5C8A; 
+background-color: #336699; 
 padding-top: 9px; 
 padding-bottom: 5px;
 color: white;
 }
 
 .invertedshiftdown .current a{
-background-color: #2E5C8A;
+background-color: #336699;
 padding-top: 9px; 
 padding-bottom: 5px; 
 color: white;

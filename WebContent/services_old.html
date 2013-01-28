@@ -54,24 +54,21 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 </head>
 <body>
 
-<div id="uberubercontainer" class="clearfix">
+<div id="container">
+
+	<div id="banner"></div>
+	<div id="bannercontent"></div>
+	
+	<div style="clear:both;"></div>
+	
+	<script type="text/javascript" src="./includes/navigation.js"></script>
+
+	<div style="clear:both;"></div>
 
 
-	<div id="ubercontainer" class="clearfix">
-		
-		
-		<div id="header">
-
-			<div id="headerlogo">GRIDFUSION</div>
-			<div id="headernavigation">
-				<script type="text/javascript" src="./includes/navigation.js"></script>
-
-			</div>
-			
-		</div>			
-		
-		<div class="contentboxleft" >
-		<b>CONSULTING | IMPLEMENTATION | TRAINING</b>
+	<div id="content">
+		<div class="contentcontainer" >
+		<p><b>CONSULTING | IMPLEMENTATION | TRAINING</b><img src="./images/solutions.gif" align="right"></p>	
 		<p>GRIDFUSION is specialized in test automation with open source toolsets, mainly for Selenium and Webdriver.
 			<br><br>We cover the entire test automation value chain including:
 			<ul>
@@ -84,7 +81,7 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 		</div><!--END contentcontainer-->
 
 
-		<div class="contentboxright">
+		<div class="contentcontainer">
 			<!-- accordion for services -->
 			<div id="accordion">
 
@@ -150,23 +147,17 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 			</div> <!-- END Trainings -->
 			
 			</div> <!-- accordion -->			
+					
+		</div>
+	
 
 
 				
-			</div><!-- contentboxright -->
-			
-			<div class="spacerdiv"> </div>
-			
-		<div class="contentboxleft"> </div>
-		<div class="contentboxright"> </div>
+	</div><!--END content-->
+	<script type="text/javascript" src="./includes/footer.js">  </script>
+</div><!--END container-->
 
-		<div class="spacerdivlarge"> </div>
-
-		
-		<script type="text/javascript" src="./includes/footer.js">  </script>	
-		
-		</div><!--ubercontainer-->
-</div><!-- uberubercontainer -->
+	<script>setActiveTab();</script>
 
 </body>
 </html>

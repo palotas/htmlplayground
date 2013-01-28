@@ -50,25 +50,23 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 </head>
 <body>
 
-<div id="uberubercontainer" class="clearfix">
+<div id="container">
 
+	<div id="banner"></div>
+	<div id="bannercontent" onclick="location.href='index.html';"></div>
+	
+	<div style="clear:both;"></div>
+	
+	<script type="text/javascript" src="./includes/navigation.js"></script>
+
+	
+	<div style="clear:both;"></div>
 	
 	
 	
-	<div id="ubercontainer" class="clearfix">
+	<div id="content">		
 		
-		<div id="header">
-
-			<div id="headerlogo">GRIDFUSION</div>
-			<div id="headernavigation">
-				<script type="text/javascript" src="./includes/navigation.js"></script>
-
-			</div>
-			
-		</div>		
-		
-		
-		<div class="contentboxleft" style="height: 350px">
+		<div class="maincontainer">
 			
 			<p><b>Company background</b></p>
 			<p>With many years in the software industry in lead roles at Ericsson, Nortel Networks, Intel and eBay, 
@@ -84,36 +82,7 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 			</p>			
 		</div>
 		
-		
-		<div class="contentboxright" style="height: 450px">
-			<p style="font-size: 14px"><b>Michael Palotas - Professional Summary</b></p>
-					
-			<p>Dipl. Ing (FH) Nachrichtentechnik (Electrical Engineering)</p>
-			<p>Stanford University 2011<br>
-			British Columbia Institute of Technology 2002<br>
-			University of Applied Sciences Dieburg 1998</p>
-			</p>
-			
-			
-			<div class="cv_years">Founder/Principal Consultant: GRIDFUSION Software Solutions, Lachen CH</div> 			
-			
-			<div class="cv_years">Head of Quality Engineering Europe (2008-current): eBay, Zürich CH</div> 
-			
-			<div class="cv_years">Head of Product Development (2007-2008): eBay, Berlin DE</div>
-
-			<div class="cv_years">Senior Manager Quality Assurance (2004-2007): eBay, Berlin DE</div>
-								
-			<div class="cv_years">Senior Software Engineer (2000-2003): Intel, Vancouver CA</div>
-				
-			<div class="cv_years">Network Test Engineer (1999-2000): Nortel Networks, Winnipeg CA</div>
-
-			<div class="cv_years">Software Design Engineer (1998-1999): Ericsson Eurolab , Nürnberg DE</div>
-			
-		</div>
-		
-
-		
-		<div class="contentboxleft" style="width: 895px">
+		<div class="maincontainer">
 			<p><b>Michael Palotas upcoming public events:</b></p>
 			<table>
 								<tr height="10" class="tableHeader">
@@ -122,31 +91,37 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 									<td width="490px"><b>Topic</b></td>
 									<td width="40px"><b>Location</b></td>																										
 								</tr>
-								<tr>
+								<tr class="bg0">
+									<td>Jan 8</td>	
+									<td>Fachhochschule Heilbronn</a></td>	
+									<td>Guest Lecture</td>	
+									<td>Heilbronn</td>	
+								</tr>
+								<tr class="bg1">
 									<td>Jan 22</td>	
 									<td><a href="http://www.sigs-datacom.de/oop2013/oop2013.html" target="_blank">OOP 2013</a></td>	
 									<td>Mobile Test Automation at eBay</td>	
 									<td>Munich</td>	
 								</tr>	
-								<tr>
+								<tr class="bg0">
 									<td>Feb 5</td>	
 									<td><a href="http://www.digicomp.ch/opentuesday" target="_blank">Open Tuesday</a></td>	
 									<td>Die Selenium Toolfamilie und ihr Einsatz im Web- und Mobile Automatisierungumfeld</td>	
 									<td>Zürich</td>		
 								</tr>	
-								<tr>
+								<tr class="bg1">
 									<td>Mar 21</td>	
-									<td>Siemens Test Conference</td>	
-									<td>KEYNOTE</td>	
+									<td>Siemens Global Testing Conference</td>	
+									<td>TBD</td>	
 									<td>Erlangen</td>	
 								</tr>	
-								<tr>
+								<tr class="bg0">
 									<td>Mar 30</td>	
 									<td><a href="http://www.codefest.ru" target="_blank">Codefest Russia</a></td>	
-									<td>Unfolding the Swiss Army Knife</td>	
+									<td>Unfolding the Swiss Army Knife - The skilfull tester of the 21st century</td>	
 									<td>Novosibirsk</td>	
 								</tr>
-								<tr>
+								<tr class="bg1">
 									<td>Apr 18</td>	
 									<td>Novomatic Test Conference</td>	
 									<td>TBD</td>	
@@ -160,11 +135,62 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 		
 
 
-	
-			<script type="text/javascript" src="./includes/footer.js">  </script>	
+		<div class="maincontainer" style="height: 450px">
+			<p style="font-size: 14px"><b>Michael Palotas - Professional Summary</b></p>
+					
+			<p>Dipl. Ing (FH) Nachrichtentechnik (Electrical Engineering)</p>
+			<p>Stanford University 2011<br>
+			British Columbia Institute of Technology 2002<br>
+			University of Applied Sciences Dieburg 1998</p>
+			</p>
+			
+			<p>
+			<div class="cv_years">Founder / Principal Consultant</div> 
+			<div class="cv_description">GRIDFUSION Software Solutions, Lachen CH<br/></div>
+			</p>
+			
+			<p>
+			<div class="cv_years">Head of Quality Engineering Europe (2008-current)</div> 
+			<div class="cv_description">eBay International, Zürich CH</div>
+			</p>
+			
+			<p>
+			<div class="cv_years">Head of Product Development (2007-2008)</div>
+			<div class="cv_description">eBay, Berlin DE</div>
+			</p>
+
+			<p>
+			<div class="cv_years">Senior Manager Quality Assurance (2004-2007)</div>
+			<div class="cv_description">eBay, Berlin DE</div>
+			</p>
+								
+			<p>
+			<div class="cv_years">Senior Software Engineer (2000-2003)</div>
+			<div class="cv_description">Intel, Vancouver CA</div>
+			</p>
+			
+			<p>
+				
+			<div class="cv_years">Network Test Engineer (1999-2000)</div>
+			<div class="cv_description">Nortel Networks, Winnipeg CA
+			</div>
+			</p>
+
+			<p>
+			<div class="cv_years">Software Design Engineer (1998-1999)</div>
+			<div class="cv_description">Ericsson Eurolab , Nürnberg DE</div>
+			</p>
+			
+		</div><!--END maincontainer-->
 		
-	</div> <!-- ubercontainer -->
-</div> <!--uberubercontainer -->
+	</div> <!-- CONTENT -->
+	
+
+	
+<script type="text/javascript" src="./includes/footer.js">  </script>
+		
+	<script>setActiveTab();</script>
+</div>
 
 </body>
 </html>

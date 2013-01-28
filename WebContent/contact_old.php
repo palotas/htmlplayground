@@ -49,18 +49,25 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 </head>
 <body>
 
-<div id="uberubercontainer" class="clearfix">
-		
-	<div id="ubercontainer" class="clearfix">		
+<div id="container">
 
-		<div id="header">
-			<div id="headerlogo">GRIDFUSION</div>
-			<div id="headernavigation">
-				<script type="text/javascript" src="./includes/navigation.js"></script>			
-		</div>
-		</div>
+	<div id="banner"></div>
+	<div id="bannercontent" onclick="location.href='index.html';"></div>
+	
+	<div style="clear:both;"></div>
+	
+	<script type="text/javascript" src="./includes/navigation.js"></script>
 
-		<div class="contentboxleft">
+	
+	<div style="clear:both;"></div>
+	
+	
+	
+	<div id="content">		
+
+
+
+		<div class="maincontainer" style="height: 600px;">
 		<p>
 		<b>Contact</b><br/>
 		GRIDFUSION Software Solutions<br />
@@ -71,25 +78,19 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 		Email: info@gridfusion.net<br>
 		</p>
 		
-		<!--
-		
+		<!-- contact form is included here -->
 		<? include("mailform.php"); ?>
-		-->	
-		</div>
-		
-		<div class="contentboxright"> </div>
-		<div class="spacerdiv"> </div>
-		<div class="contentboxleft"> </div>
-		<div class="contentboxright"> </div>
-		
-		<div class="spacerdivlarge"> </div>
-		
-		
-		<script type="text/javascript" src="./includes/footer.js">  </script>	
+		</div><!--END maincontainer-->
 
 		
-	</div> <!-- ubercontainer -->
-</div> <!-- uberubercontainer -->
+	</div> <!-- CONTENT -->
+	
+
+	
+<script type="text/javascript" src="./includes/footer.js">  </script>
+		
+	<script>setActiveTab();</script>
+</div>
 
 </body>
 </html>

@@ -11,6 +11,10 @@ table {
 	border-spacing: 0px;
 }
 
+tr {
+	font-size: 12px;
+}
+
 .tableHeader {
 	font-size: 12px;
 }

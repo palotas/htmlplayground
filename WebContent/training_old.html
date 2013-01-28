@@ -67,26 +67,27 @@
 
 
 
-<div id="uberubercontainer" class="clearfix">
+<div id="container">
 
+	<div id="bannercontent" onclick="location.href='index.html';"></div>
+	 
+	<div style="clear:both;"></div>
+	
+	<script type="text/javascript" src="./includes/navigation.js"></script>
 
-	<div id="ubercontainer" class="clearfix">
-		
-		<div id="header">
-
-			<div id="headerlogo">GRIDFUSION</div>
-			<div id="headernavigation">
-				<script type="text/javascript" src="./includes/navigation.js"></script></div>
-		</div>	
+	
+	<!-- PUT CONTENT BELOW -->
+	<div style="clear:both;"></div>
+	<div id="content">
 				
-		<div class="contentboxleft">
+		<div class="contentcontainer">
  							<a href="./training_de.html">DE</a> | <b>EN</b> 
 			
 							<h3>SELENIUM 2 / WEBDRIVER TRAINING</h3>
 							<div class="registerbutton"><p><a href="./register.php"><img src="./images/register_btn_square.gif"></a></p></div> 
 							<p>Coming soon<br>								
 							Language: English<br>
-							Cost: CHF 1300.- 
+							Cost: CHF 1300.- (Discounts available for groups of 3 or more - <a href="./contact.php">contact us</a>)<br />
 							Max. participants: 8</p>
 							
 
@@ -105,10 +106,7 @@
 									<li>Learn how to write efficient, scalable and low maintenance tests in hands-on practical sessions</li>
 								</ul>		
 							
-			</div>
-			
-			<div class="contentboxright">	
-				
+								
 								<b>CONTENT</b>
 								<ul>
 									<li>Introduction to Selenium and test automation with open source tool sets</li>
@@ -119,7 +117,9 @@
 									<li>The maintenance aspect - how to bring your maintenance down to a minimum  </li>
 									<li>Scaling your tests</li>
 									<li>All topics are accompanied by practical examples and real life experiences</li>
-								</ul>				
+								</ul>
+
+								
 
 								<b>TARGET AUDIENCE</b>
 								<ul>
@@ -132,7 +132,7 @@
 									<ul>
 										<li>Basic programming skills (ideally Java)</li>
 									</ul>
-<!--
+								
 								<p><b>INSTRUCTOR</b><br />
 									The course is taught by Michael Palotas who is a recognized expert and thought leader in test automation 
 									with open source software tools and agile testing methodologies. In the past, Michael 
@@ -141,7 +141,7 @@
 									feels equally at home leading large strategic efforts in the software quality field, writing code and developing 
 									the next big thing in test automation, as well as giving hands on trainings around today's cutting edge automation tool sets. 
 								</p>	
--->
+
 				
 		
 		
@@ -149,23 +149,16 @@
 			Included:  Documentation as hardcopy and electronic versions, source code of training examples, full catering (coffee, lunch, snacks).
 		</p>		
 
-		<p>Please use the <a href="./contact.php">contact form</a> or send an email to info@gridfusion.net for more information.</p>
+	<p>Please use the <a href="./aboutme.php">contact form</a> or send an email to info@gridfusion.net for more information.</p>
 		
 		
-		</div>
+		</div><!--END contentcontainer-->
+	</div> <!-- CONTENT -->
 	
-		<div class="spacerdiv"> </div>
-		<div class="contentboxleft"> </div>
-		<div class="contentboxright"> </div>
-		
-		<div class="spacerdivlarge"> </div>
+	<script type="text/javascript" src="./includes/footer.js">  </script>
 	
-			<script type="text/javascript" src="./includes/footer.js">  </script>	
-
-	</div><!--ubercontainer-->
-	
-	</div><!--uberubercontainer-->
-
+</div> <!-- CONTAINER -->
+	<script>setActiveTab();</script>
 
 </body>
 </html>

@@ -57,20 +57,11 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 	
 	<div id="ubercontainer" class="clearfix">
 		
-		<div id="header">
-
-			<div id="headerlogo">GRIDFUSION</div>
-			<div id="headernavigation">
-				<script type="text/javascript" src="./includes/navigation.js"></script>
-
-			</div>
+		<script type="text/javascript" src="./includes/header.js"></script>
 			
-		</div>		
-		
-		
-		<div class="contentboxleft" style="height: 350px">
+		<div class="contentboxleft" style="height: 420px">
 			
-			<p><b>Company background</b></p>
+			<p><h2><b>Company background</b></h2></p>
 			<p>With many years in the software industry in lead roles at Ericsson, Nortel Networks, Intel and eBay, 
 				Michael Palotas founded GRIDFUSION to share his passion and knowledge and to help organizations to 
 				implement open source test automation.
@@ -85,8 +76,8 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 		</div>
 		
 		
-		<div class="contentboxright" style="height: 450px">
-			<p style="font-size: 14px"><b>Michael Palotas - Professional Summary</b></p>
+		<div class="contentboxright" style="height: 420px">
+			<p><h2><b>Michael Palotas - Professional Summary</b></h2></p>
 					
 			<p>Dipl. Ing (FH) Nachrichtentechnik (Electrical Engineering)</p>
 			<p>Stanford University 2011<br>
@@ -95,26 +86,26 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 			</p>
 			
 			
-			<div class="cv_years">Founder/Principal Consultant: GRIDFUSION Software Solutions, Lachen CH</div> 			
+			<div class="cv_years">Founder/Principal Consultant: GRIDFUSION, Lachen CH</div> 			
 			
-			<div class="cv_years">Head of Quality Engineering Europe (2008-current): eBay, Zürich CH</div> 
+			<div class="cv_years">Head of Quality Engineering (2008-current): eBay, Zürich CH</div> 
 			
 			<div class="cv_years">Head of Product Development (2007-2008): eBay, Berlin DE</div>
 
-			<div class="cv_years">Senior Manager Quality Assurance (2004-2007): eBay, Berlin DE</div>
+			<div class="cv_years">Sr. Manager Quality Assurance (2004-2007): eBay, Berlin DE</div>
 								
-			<div class="cv_years">Senior Software Engineer (2000-2003): Intel, Vancouver CA</div>
+			<div class="cv_years">Sr. Software Engineer (2000-2003): Intel, Vancouver CA</div>
 				
-			<div class="cv_years">Network Test Engineer (1999-2000): Nortel Networks, Winnipeg CA</div>
+			<div class="cv_years">Network Test Engineer (1999-2000): Nortel, Winnipeg CA</div>
 
-			<div class="cv_years">Software Design Engineer (1998-1999): Ericsson Eurolab , Nürnberg DE</div>
+			<div class="cv_years">Software Design Engineer (1998-1999): Ericsson, Nürnberg DE</div>
 			
 		</div>
 		
 
 		
 		<div class="contentboxleft" style="width: 895px">
-			<p><b>Michael Palotas upcoming public events:</b></p>
+			<p><h2><b>Upcoming public events:</b></h2></p>
 			<table>
 								<tr height="10" class="tableHeader">
 									<td width="90px"><b>Date</b></td>
@@ -122,20 +113,9 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 									<td width="490px"><b>Topic</b></td>
 									<td width="40px"><b>Location</b></td>																										
 								</tr>
+<!--	
 								<tr>
-									<td>Jan 22</td>	
-									<td><a href="http://www.sigs-datacom.de/oop2013/oop2013.html" target="_blank">OOP 2013</a></td>	
-									<td>Mobile Test Automation at eBay</td>	
-									<td>Munich</td>	
-								</tr>	
-								<tr>
-									<td>Feb 5</td>	
-									<td><a href="http://www.digicomp.ch/opentuesday" target="_blank">Open Tuesday</a></td>	
-									<td>Die Selenium Toolfamilie und ihr Einsatz im Web- und Mobile Automatisierungumfeld</td>	
-									<td>Zürich</td>		
-								</tr>	
-								<tr>
-									<td>Mar 21</td>	
+									<td>Mar 22</td>	
 									<td>Siemens Test Conference</td>	
 									<td>KEYNOTE</td>	
 									<td>Erlangen</td>	
@@ -149,10 +129,36 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 								<tr>
 									<td>Apr 18</td>	
 									<td>Novomatic Test Conference</td>	
-									<td>TBD</td>	
+									<td>We best manage what we can measure</td>	
 									<td>Vienna</td>	
 								</tr>
-								
+
+								<tr>
+									<td>May 29</td>	
+									<td><a href="http://www.swissict.ch/expertenwissen/fachanlaesse/event/scrum-breakfast-bern-tool-set-mindset-und-skillset-die-schluessel-zu-erfolgreicher-agiler-testaut/" target="_blank"> SWISS ICT Scrum Breakfast </a> </td>	
+									<td>Toolset. Skillset. Mindset.</td>	
+									<td>Bern</td>	
+								</tr>	
+								<tr>
+									<td>Jul 4</td>	
+									<td><a href="http://www.germantestingnight.de/event/programm_german_testing_night_muenchen_2013" target="_blank">German Testing Night</a> </td>	
+									<td>Testdaten - ein oft vergessener Teil der Testinfrastruktur</td>	
+									<td>Munich</td>	
+								</tr>							
+-->
+								<tr>
+									<td>Oct 15</td>	
+									<td><a href="http://www.iqnite-conferences.com/AU/programme/programme_2.aspx" target="_blank">Iqnite Australia</a> </td>	
+									<td>Selenium Workshop</td>	
+									<td>Sydney</td>	
+								</tr>	
+																								
+								<tr>
+									<td>Nov 12</td>	
+									<td><a href="http://www.germantestingday.info/" target="_blank">German Testing Day</a> </td>	
+									<td>Keynote</td>	
+									<td>Munich</td>	
+								</tr>							
 								
 								
 			</table>

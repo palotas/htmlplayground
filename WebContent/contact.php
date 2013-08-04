@@ -52,22 +52,18 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 <div id="uberubercontainer" class="clearfix">
 		
 	<div id="ubercontainer" class="clearfix">		
+		<script type="text/javascript" src="./includes/header.js"></script>
 
-		<div id="header">
-			<div id="headerlogo">GRIDFUSION</div>
-			<div id="headernavigation">
-				<script type="text/javascript" src="./includes/navigation.js"></script>			
-		</div>
-		</div>
 
 		<div class="contentboxleft">
 		<p>
-		<b>Contact</b><br/>
+		<h2><b>Contact</b></h2>
 		GRIDFUSION Software Solutions<br />
 		Michael Palotas<br>
 		Gerbiweg 2<br>
 		8853 Lachen SZ<br>
 		SWITZERLAND<br>
+		Tel.: +41 44 5771555<br>
 		Email: info@gridfusion.net<br>
 		</p>
 		

@@ -1,0 +1,439 @@
+@CHARSET "UTF-8";
+
+@import "./buttons.css";
+@import "./tables.css";
+
+
+body {
+	background-image: url(./images/bg_image_new.png);
+	
+}
+
+#uberubercontainer {
+	width: 100%;
+}
+
+#ubercontainer {
+	width: 895px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#header {
+	height: 150px;
+
+
+}
+
+#headerlogo {
+	/*font-family: "museo-sans-rounded", sans-serif;*/
+	font-family: "Varela", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 100px;
+	color: #336699;
+	text-shadow: 0 1px 0 white;	
+	width: 500px;
+	float: left;
+}
+
+#headersubtitle {
+	font-family: "Varela", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	color: #336699;
+	text-shadow: 0 1px 0 white;	
+	width: 500px;
+	float: left;
+}
+
+#headernavigation {
+	float: left;
+	width: 395px;
+	height: 30px;
+	line-height: 150px;	
+	font-family: "museo-sans-rounded", arial, sans-serif !important;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+#headernavigation ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#headernavigation ul li {
+	display: inline;
+	margin-right: 20px;	
+}
+
+#headernavigation ul li a {
+	text-decoration: none;
+	color: #444;
+}
+
+#headernavigation ul li a:hover {
+	color: black;
+}
+
+.spacerdiv {
+	width: 100%;
+	height: 20px;
+	float: left;
+}
+
+.spacerdivlarge {
+	width: 100%;
+	height: 140px;
+	float: left;	
+}
+
+
+
+
+
+.contentboxleft {
+	width: 400px;
+	height: 250px;
+	font-family: "Helvetica Neue", arial;
+	font-weight: 300;
+	line-height: 20px;
+	font-size: 14px;
+	color: #444;
+	float: left;
+	
+}
+
+.contentboxright {
+	margin-left: 95px;
+	width: 400px;
+	height: 250px;
+	font-family: "Helvetica Neue", arial;
+	font-weight: 300;
+	line-height: 20px;
+	font-size: 14px;	
+	color: #444;
+	float: left;
+}
+
+.contentboxheadline {
+	width: 895px;
+	height: 30px;
+	text-align: center;
+	font-family: "Helvetica Neue", arial;
+	font-weight: 300;
+	line-height: 20px;
+	font-size: 20px;	
+	color: #444;
+
+}
+
+
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height:0;
+	visibility: hidden;
+}
+
+#footer {
+	width: 895px;
+	height: 30px;
+	float: left;
+	
+	font-family: "museo-sans-rounded", arial, sans-serif !important;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.partnerlogo {
+	float:left;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+
+tr p{
+	font-size: 8px;
+}
+
+ul { margin-top: 0; }
+
+
+#accordion .accordiontext{
+	font-family: "Varela";
+	font-size: 12px;
+	color:#29293D;	
+}
+
+.hpimagetext{
+	color: white;
+	font-weight: bold;	
+}
+
+
+#container {
+    width: 960px;
+    height: 960px;
+    margin: 0 auto;
+    overflow: hidden;   
+    background: white;
+}
+
+
+#footer1{
+	margin: 0 auto;
+	font-size: 10px;
+	width: 958px;
+	height: 22px;
+	border: 1px solid #aaaaaa;
+	
+}
+
+/*
+#footer1{
+	position: absolute;
+	top: 960px;
+	left: 231px;
+	color: black;
+	background: rgba(128,128,128,0.1);
+	font-size: 10px;
+	width: 958px;
+	height: 20px;
+	border: 1px solid #aaaaaa;
+	
+}
+*/
+
+#banner {
+	/*background-image:url(./images/parallelboxes.png);*/
+	background-repeat: no-repeat;
+	float: right;
+	position: relative;
+	width: 150px;
+	height: 100px;
+	margin: 0 auto;
+
+
+}
+
+
+#bannercontent {
+	background-image:url(./images/gridfusion_logo_2.png);
+	background-repeat: no-repeat;
+	float: left;
+	position: relative;
+	width: 800px;
+	height: 100px;
+	margin-top: 0px;
+	font-size: 40px;
+}
+
+#bannersubline {
+	position: relative;
+	width: 860px;
+	height: 40px;
+	font-size: 20px;
+}
+
+#content {
+	background-image:url(./images/fusion5.jpeg);
+	margin-top: 5px;	
+	position: relative;
+	width: 960px;
+	height: 800px;
+	font-size: 14px;
+	overflow: auto;
+}
+
+
+.cv_years
+{
+	margin-top: 7px;
+	font-size: 14px;
+	color:#29293D;
+
+}
+
+.cv_description
+{
+	font-size: 12px;
+	color:#29293D;
+}
+
+
+
+.widecontainer, .maincontainer{
+	background: rgba(244,244,244,0.5);
+	position:relative;
+	float:left;
+	color: black;
+	font-size: 18px;
+	margin-left:53px;
+	margin-top:25px;
+	padding:10px;
+	width:380px;
+	height:250px;
+	border-radius:3px;
+}
+
+.maincontainer p
+{
+	font-size: 12px;
+	color:#29293D;
+}
+
+
+.maincontainer img {
+	max-width: 100%;
+	max-height:100%;
+}
+
+.centeralign {
+	text-align: center;
+}
+
+
+/*
+.maincontainer .continueButton{
+	position:absolute;
+	bottom:0;
+	
+}
+*/
+
+
+
+.smallcontainer{
+	background: rgba(128,128,128,0.3);
+	float:left;
+	color:#777777;
+	font-size: 16px;
+	margin-left:53px;
+	margin-top:45px;
+	padding:10px;
+	width:380px;
+	height: 40px;
+	border-radius:3px;
+}
+
+.smallcontainer p
+{
+	font-size: 12px;
+}
+
+.smallcontainer:hover
+{
+	background:#000000;
+}
+
+.checkmarklist
+{
+	list-style: url("./images/checkmark.jpg");
+}
+
+
+
+.contentcontainer{
+	background: rgba(244,244,244,0.6);
+	position:relative;
+	color:#29293D;
+	font-size: 12px;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	width:830px;
+	border-radius:3px;
+}
+
+
+.contentcontainer .contentHeadline{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+
+.headline {
+	font-size: 20px;
+	text-align: center;
+}
+
+#leftcontent, .videolinks {
+	margin-top: 20px;
+	font-size: 12px;
+	width: 960px;
+	padding: 10px;
+	//height: 150px;
+}
+
+#narrowleftcontent{
+	float: left;
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 12px;
+	width: 638px;
+	height: 620px;
+	border: 1px solid #aaaaaa;
+	border-radius: 15px;
+}
+
+
+#tablecontent {
+	font-size: 10px;
+}
+
+#tablecontent a:link 
+{
+	text-decoration: none;	
+}
+
+#tablecontent a:active
+{
+	text-decoration: none;	
+}
+
+#tablecontent a:visited
+{
+	text-decoration: none;
+}
+
+#tablecontent a:hover
+{
+	font-size:10px;
+	color: blue;
+}
+
+
+
+
+
+
+#footerlogo{
+	float:right;
+	background-image:url(./images/gridfusion_logo_footer.png);
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 100px;
+	margin-top:5px;
+	margin-right:5px;
+	
+}
+
+
+/* to highlight table rows when mouse over */
+#tablecontent tr { background-color: white}
+  .initial { background-color: white; color:#000000 }
+  .normal { background-color: white }
+  .highlight { background-color: gray; font-weight: normal }
+
+
+

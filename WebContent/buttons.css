@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+.maincontainer .continueButton{
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	
+	
+}
+
+.registerbutton {
+	/*
+	position:absolute;
+	top:200px;
+	right:200px;
+	*/
+}
+

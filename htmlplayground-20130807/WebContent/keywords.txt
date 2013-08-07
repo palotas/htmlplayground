@@ -1,3 +1,0 @@
-<meta name="keywords" content="Michael Palotas, test consulting, selenium consulting, selenium help, selenium coaching, head of quality engineering, java, page objects, open source, 
-innovation, test engineering, conferences, swiss testing day, conference board, palotas, Selenium, webdriver, webdriver training, 
-Selenium Training, Selenium Consulting, test automation, gridfusion, agile testing, agile automation " />

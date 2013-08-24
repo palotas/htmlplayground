@@ -105,7 +105,7 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 
 		
 		<div class="contentboxleft" style="width: 895px">
-			<p><h2><b>Upcoming public events:</b></h2></p>
+			<p><h2><b>Upcoming public events of Michael Palotas:</b></h2></p>
 			<table>
 								<tr height="10" class="tableHeader">
 									<td width="90px"><b>Date</b></td>
@@ -152,15 +152,26 @@ Selenium Training, Selenium Consulting, test automation, gridfusion, agile testi
 									<td>Selenium Workshop</td>	
 									<td>Sydney</td>	
 								</tr>	
-																								
+								<tr>
+									<td>Nov 5</td>	
+									<td><a href="http://www.digicomp.ch/opentuesday" target="_blank">Open Tuesday</a> </td>	
+									<td>Testautomatisierung und Continuous Integration mit Selenium, Git, Maven und Jenkins</td>	
+									<td>Zürich</td>	
+								</tr>																																
 								<tr>
 									<td>Nov 12</td>	
 									<td><a href="http://www.germantestingday.info/" target="_blank">German Testing Day</a> </td>	
 									<td>Keynote</td>	
 									<td>Munich</td>	
-								</tr>							
+								</tr>	
+								<tr>
+									<td>Dec 17</td>	
+									<td>Guest lecture FH Heilbronn</td>	
+									<td>Guest lecture</td>	
+									<td>Heilbronn</td>	
+								</tr>									
 								
-								
+																						
 			</table>
 		</div>
 		
